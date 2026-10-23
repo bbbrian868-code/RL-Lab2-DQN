@@ -1,0 +1,30 @@
+# training artefacts -- never committed, never submitted
+checkpoints/
+runs/
+videos/
+test_logs/
+figures/
+
+# model weights (the handout forbids these in the submission)
+*.pt
+*.pth
+*.ckpt
+*_weights.zip
+
+# course handouts (not ours to redistribute)
+Lab2-*.pdf
+
+# environment
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# local copy of system fonts for Tectonic (not redistributable)
+.fonts/
+
+# submission archive
+RL_LAB2_*.zip
+
+# originals with student ID and name (for submission only)
+private/
