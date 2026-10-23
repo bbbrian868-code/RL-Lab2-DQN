@@ -1,6 +1,6 @@
 # RL Lab 2 — Deep Q-Network on Atari
 
-強化學習課程 Lab 2：在 Atari `MsPacman-v5` 與 `Enduro-v5` 上實作 DQN，以及三種延伸：
+**Selected Topics in Reinforcement Learning（NYCU, Fall 2026）** 課程作業 Lab 2：在 Atari `MsPacman-v5` 與 `Enduro-v5` 上實作 DQN，以及三種延伸：
 
 - **Double DQN**：online 網路選動作、target 網路估值，減少 Q 值高估
 - **Dueling DQN**：把 Q 拆成狀態價值 V(s) 與動作優勢 A(s,a)
@@ -84,6 +84,10 @@ python -m pytest tests -q
 `--variant` 可選 `dqn`、`ddqn`、`dueling`、`dueling_ddqn`；`--num-envs 8` 開啟平行 rollout。所有參數說明見 [src/README.md](src/README.md)。
 
 > 模型權重沒有放在這個 repo，`checkpoints/` 需要自己訓練產生。
+
+## 致謝
+
+作業題目、規格與 `lab2-code/` 中的範例程式碼皆由 Selected Topics in Reinforcement Learning（NYCU, Fall 2026）課程團隊設計提供，著作權屬於課程團隊。本 repo 只收錄我自己的實作與報告，課程講義未包含在內。
 
 ## References
 
